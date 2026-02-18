@@ -25,7 +25,7 @@ let food: Sprite = null
 let count = 0
 let player2: Sprite = null
 let level = 0
-game.splash("Hurry!", "Eat the cherries!")
+game.splash("Yammy", "Yammy!")
 level = 1
 player2 = sprites.create(sprites.castle.princessFront0, SpriteKind.Player)
 controller.moveSprite(player2, 70, 70)
